@@ -75,4 +75,60 @@ li {
     width: 20px;
 }
 
+/* Mainvisual */
+#mainvisual {
+    margin-bottom: 80px;
+}
 
+#mainvisual img {
+    width: 100%;
+    max-width: 1920px;
+    height: 420px;
+    object-fit: cover;
+}
+
+/* About */
+#about ul {
+    margin-bottom: 30px;
+}
+
+#about li:first-child {
+    margin-bottom: 30px;
+}
+
+#about p {
+    text-align: justify;
+}
+
+/* Works */
+#works ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#works li {
+    width: 31%;
+    margin-bottom: 23px;
+}
+
+/* News */
+#news dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #c8c8c8;
+    margin-bottom: 20px;
+}
+
+#news dt {
+    width: 20%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px;
+}
+
+#news dd {
+   width: 80%;
+   border-bottom: 1px solid #c8c8c8;
+   padding: 15px;
+}
