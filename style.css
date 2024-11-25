@@ -132,3 +132,49 @@ li {
    border-bottom: 1px solid #c8c8c8;
    padding: 15px;
 }
+
+/* Contact */
+#contact dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#contact dt {
+    width: 15%;
+}
+
+#contact dd {
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#contact dd input,
+#contact dd textarea {
+    width: 100%;
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+}
+
+#contact dd textarea {
+    height: 10rem;
+}
+
+#contact .button {
+    text-align: center;
+}
+
+#contact .button input {
+    width: 200px;
+    background: #24292e;
+    color: #fff;
+    padding: 15px 0;
+    border: 1px solid #24292e;
+    transition: all 0.3s ease;
+}
+
+#contact .button input:hover {
+    background: #fff;
+    color: #24292e;
+    transition: all 0.3s ease;
+}
