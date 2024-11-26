@@ -178,3 +178,54 @@ li {
     color: #24292e;
     transition: all 0.3s ease;
 }
+
+/* Footer */
+#footer {
+    background: #24292e;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+/* SmartPhone */
+@media screen and (max-width: 600px) {
+    .wrapper {
+        margin-bottom: 70px;
+    }
+
+    .site-title {
+        margin-top: 20px;
+    }
+
+    .sec-title {
+        margin-bottom: 40px;
+    }
+
+    /* Header */
+    #header {
+        max-width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    #header li {
+        font-size: 0.8rem;
+        margin-left: 20px;
+    }
+
+    #header li:first-child {
+        margin-left: 0;
+    }
+
+    /* Works */
+    #works ul {
+        flex-direction: column;
+    }
+
+    #works li {
+        width: 100%;
+    }
+} 
+
